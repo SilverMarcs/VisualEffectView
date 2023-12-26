@@ -5,6 +5,7 @@
 //  Created by Lasha Efremidze on 9/14/20.
 //
 
+#if os(iOS)
 import UIKit
 
 @available(iOS 14, *)
@@ -70,3 +71,4 @@ private extension UIView {
         return subviews.first { type(of: $0) == classType }
     }
 }
+#endif

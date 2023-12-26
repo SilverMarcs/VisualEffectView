@@ -6,6 +6,7 @@
 //  Copyright © 2023 Lasha Efremidze. All rights reserved.
 //
 
+#if os(iOS)
 import SwiftUI
 
 @available(iOS 14, *)
@@ -66,3 +67,4 @@ private extension Color {
         return UIColor(self)
     }
 }
+#endif

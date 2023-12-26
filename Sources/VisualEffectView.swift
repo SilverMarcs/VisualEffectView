@@ -6,6 +6,7 @@
 //  Copyright © 2016 Lasha Efremidze. All rights reserved.
 //
 
+#if os(iOS)
 import UIKit
 
 /// VisualEffectView is a dynamic background blur view.
@@ -127,3 +128,4 @@ private extension VisualEffectView {
 }
 
 // ["grayscaleTintLevel", "grayscaleTintAlpha", "lightenGrayscaleWithSourceOver", "colorTint", "colorTintAlpha", "colorBurnTintLevel", "colorBurnTintAlpha", "darkeningTintAlpha", "darkeningTintHue", "darkeningTintSaturation", "darkenWithSourceOver", "blurRadius", "saturationDeltaFactor", "scale", "zoom"]
+#endif
