@@ -5,7 +5,7 @@
 //  Created by Lasha Efremidze on 9/14/20.
 //
 
-#if os(iOS)
+#if canImport(UIKit)
 import UIKit
 
 @available(iOS 14, *)

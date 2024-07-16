@@ -6,7 +6,7 @@
 //  Copyright © 2016 Lasha Efremidze. All rights reserved.
 //
 
-#if os(iOS)
+#if canImport(UIKit)
 import UIKit
 
 /// VisualEffectView is a dynamic background blur view.

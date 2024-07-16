@@ -6,7 +6,7 @@
 //  Copyright © 2023 Lasha Efremidze. All rights reserved.
 //
 
-#if os(iOS)
+#if canImport(UIKit)
 import SwiftUI
 
 @available(iOS 14, *)
